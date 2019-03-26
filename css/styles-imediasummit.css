@@ -1957,5 +1957,5 @@ body.article_list .list-articles .la-item h2 { color: #e63a3a}
 }
 
 
-.block-small.quicklinks.temoin { display: none; }
+.block-small.quicklinks.temoin, .btn-burger { display: none; }
 
