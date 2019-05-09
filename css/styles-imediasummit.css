@@ -2960,5 +2960,21 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .speakers .cl-item [itemprop="address"] { display: block;  position: absolute; margin-top: -188px; }
 .speakers .cl-item p.cl-item-address{ margin: 0; color:#b71234; text-transform: uppercase; letter-spacing: 5px; font-size: 12px; font-weight: 600; }
 
+/*lp invite*/
+.lp-invite .section-primary,.lp-invite  #zone2 .main-navigation { display: none; }
+.lp-invite .article-intro p { font-weight: bold }
+.lp-invite .article-intro { margin-bottom: 10px; }
+.lp-invite ul.style4 { margin-top: -5vw; }
+
+.lp-invite ul.style4 li:after { display: none; }
+.lp-invite ul.style4 li { clear: both; padding:0 0 30px ; }
+.lp-invite ul.style4 figure.fl { margin: 0 20px 0 0; }
+
+.lp-invite  .article-wrapper blockquote { font-weight: 700; color: #353234; margin: 0; }
+.lp-invite  .article-wrapper blockquote p { font-size: 25px!important; margin-bottom: 20px; }
+
+.lp-form { border: 10px solid #f1f5f8; padding: 25px 25px 0 25px; }
+.lp-form p { }
+.lp-form iframe { max-width: 500px; }
 
 .slider-main-outer .la-item-content div.la-item-title { color: white; }
