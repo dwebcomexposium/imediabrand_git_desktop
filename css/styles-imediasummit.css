@@ -2913,7 +2913,6 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 /*.front .section-tertiary, .front .partner, .front .participants, .site-banner .lang-switcher { display: none; }*/
 /*.site-banner .main-navigation { float: right; padding: 0 2.7vw 0 0;  }*/
 
-
 .article-wrapper ul.list-partners li:after { display: none ; }
 
 
@@ -2921,12 +2920,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
     div
 \* ------------------------------------------------------------ */
 
-.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
-	background: none;
-}
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active { background: none; }
 
-.article-content hr {background: none; clear: both; }
-
+.article-content hr { background: none; clear: both; }
 
 
 /*Speakers*/
@@ -2964,14 +2960,14 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-invite .section-primary,.lp-invite  #zone2 .main-navigation { display: none; }
 .lp-invite .article-intro p { font-weight: bold }
 .lp-invite .article-intro { margin-bottom: 10px; }
-.lp-invite ul.style4 { margin-top: -5vw; }
+.lp-invite ul.style4 { margin-top: -5vw; margin-bottom: 30px; }
 
 .lp-invite ul.style4 li:after { display: none; }
 .lp-invite ul.style4 li { clear: both; padding:0 0 30px ; }
 .lp-invite ul.style4 figure.fl { margin: 0 20px 0 0; }
 
 .lp-invite  .article-wrapper blockquote { font-weight: 700; color: #353234; margin: 0; }
-.lp-invite  .article-wrapper blockquote p { font-size: 25px!important; margin-bottom: 20px; }
+.lp-invite  .article-wrapper blockquote p { font-size: 22px!important; margin-bottom: 20px; }
 
 .lp-form { border: 10px solid #f1f5f8; padding: 25px 25px 0 25px; }
 .lp-form p { }
