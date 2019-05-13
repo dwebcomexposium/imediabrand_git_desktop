@@ -2973,4 +2973,10 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-form p { }
 .lp-form iframe { max-width: 500px; }
 
+
+@media (min-width: 1600px) {
+	.lp-invite .block.edito .edito-inner { margin-top: 9vw; }
+}
+
+
 .slider-main-outer .la-item-content div.la-item-title { color: white; }
