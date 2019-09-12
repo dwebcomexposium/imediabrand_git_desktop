@@ -824,7 +824,7 @@ word-wrap: normal;
 
 .block.edito { position: relative; padding-left: 6vw; margin-bottom: 8vw; }
 
-.block.edito h2 { font-family: 'Proxima Nova', sans-serif; font-weight: 700;  max-width: 60%; font-size: 35px; color: #262626; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.02em; }
+.block.edito h2, .block.edito h1 { font-family: 'Proxima Nova', sans-serif; font-weight: 700;  max-width: 60%; font-size: 35px; color: #262626; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.02em; }
 .block.edito h4 { font-family: 'Glegoo', serif; font-size: 1.41vw; font-weight: 600; letter-spacing: -0.02em; color: #262626; position: relative; margin: 0 0 -0.39vw; z-index: 2; }
 .block.edito p { max-width: 60%; margin: 0 0 1.68vw; font-size: 1.25vw; letter-spacing: -0.02em; position: relative; z-index: 2; }
 .block.edito p a:not([class]) { color: inherit; }
@@ -955,7 +955,7 @@ word-wrap: normal;
 
 @media (max-width: 1199px) {
 	.block.edito { padding-left: 0; }
-	.block.edito h2 { max-width: 100%; }
+	.block.edito h2, .block.edito h1 { max-width: 100%; }
 	.block.edito p { max-width: 100%; font-size: 17px; }
 	.block.edito .edito-content { width: 100%; }
 	.block.edito .edito-inner { margin: 30px 0;  }
@@ -2001,7 +2001,7 @@ word-wrap: normal;
 
 .article-wrapper h3 { font-size: 27px; font-weight: 700; color: #b71234; margin: 4.4vw 0 2.3vw; line-height: 1; clear: both; }
 .article-wrapper h4 { font-family: 'Proxima Nova', sans-serif; font-size: 17px; line-height: 1; font-weight: 700; letter-spacing: 0.1em; color: #fff; text-transform: uppercase; display: inline-block;  background: #262626; padding: 17px 28px; font-weight: 300;  margin: 28px 0 3.2vw; }
-.article-wrapper p { font-size: 20px; line-height: 1.45 !important; font-weight: 300;  margin: 0 0 2.34vw; line-height: 1.8; }
+.article-wrapper p { /*font-size: 20px; */line-height: 1.45 !important; font-weight: 300;  margin: 0 0 2.34vw; line-height: 1.8; }
 .article-wrapper ul { padding: 0; margin: 0 0 2.61vw; line-height: 1.71; font-size: 17px;  }
 .article-wrapper ul ul { margin: 0 0 0 4px; }
 .article-wrapper ul li { position: relative; padding-left: 24px; }
@@ -2151,12 +2151,14 @@ h1.main-title { font-family: 'Proxima Nova', sans-serif; font-size: 37px; line-h
 
 @media (max-width: 1023px) {
 	.article-wrapper { padding-bottom: 0; }
+	.article-wrapper .article-content, .article-intro { font-size: 16px; }
+	
 }
 
 @media (max-width: 767px) {
 	.article-wrapper { padding-left: 0; margin: 0; }
 	.article-wrapper h4 { min-width: 0; width: 100%; }
-	.article-wrapper p { font-size: 15px; }
+	.article-wrapper p { /*font-size: 15px; */}
 	.article-wrapper ul { font-size: 15px; margin-bottom: 30px; }
 
 	.article-wrapper .rhomboid-container { width: 280px; height: 280px !important; padding: 20px; }
