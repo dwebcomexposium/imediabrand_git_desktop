@@ -2962,7 +2962,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-invite .section-primary,.lp-invite  #zone2 .main-navigation { display: none; }
 .lp-invite .article-intro p { font-weight: bold }
 .lp-invite .article-intro { margin-bottom: 10px; }
-.lp-invite ul.style4 { margin-top: -5vw; margin-bottom: 30px; }
+.lp-invite ul.style4 {/* margin-top: -5vw;*/ margin-bottom: 30px; }
 
 .lp-invite ul.style4 li:after { display: none; }
 .lp-invite ul.style4 li { clear: both; padding:0 0 30px ; }
@@ -2976,7 +2976,17 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-form iframe { max-width: 500px; }
 
 
+.lp-invite .article-wrapper .block.edito { position: absolute; right: 25vw; }
+
+@media (max-width: 1199px) {
+	.lp-invite .article-wrapper .block.edito { display: none; }
+	
+}
+
+
+
 @media (min-width: 1600px) {
+	
 	.lp-invite .block.edito .edito-inner { margin-top: 9vw; }
 }
 
