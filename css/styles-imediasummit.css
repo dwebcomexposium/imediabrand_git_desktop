@@ -2976,7 +2976,9 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-form iframe { max-width: 500px; }
 
 
-.lp-invite .article-wrapper .block.edito { position: absolute; right: 25vw; }
+.lp-invite .article-wrapper .block.edito { position: absolute!important; right: 25vw; top: 21vh; }
+
+
 
 @media (max-width: 1199px) {
 	.lp-invite .article-wrapper .block.edito { display: none; }
