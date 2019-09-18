@@ -2019,7 +2019,7 @@ word-wrap: normal;
 .article-wrapper blockquote p { padding: 0; border: 0; }
 .article-wrapper figure { padding: 0; margin: 0; border: 0; }
 .article-wrapper figure small { display: block; font-size: 0.86vw; font-weight: 300; letter-spacing: 0; color: #0c0803; }
-.article-wrapper figure.fl { max-width: 16.41vw; margin: 0.47vw 2.89vw 1.17vw 0; }
+.article-wrapper figure.fl { /*max-width: 16.41vw;*/ margin: 0.47vw 2.89vw 1.17vw 0; }
 .article-wrapper figure.fl img { margin-bottom: 0.78vw; }
 .article-wrapper figure.fr { position: static; max-width: 19.9vw; margin: 0.63vw -39px 0 1.5vw; }
 .article-wrapper figure.fr img { margin-bottom: 5px; }
