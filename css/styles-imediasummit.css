@@ -2996,6 +2996,10 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .slider-main-outer .la-item-content div.la-item-title { color: white; }
 
 
+
+
+.lp-club .section-primary,.lp-club  #zone2 .main-navigation { display: none; }
+
 .lp-club ul.style2 { display: -webkit-box; display: -ms-flexbox; display: flex; margin-bottom: 15px;  }
 .lp-club ul.style2 li:before { display: none!important; }
 .lp-club ul.style2 li { padding:0 35px 25px 0 ; margin: 0; line-height: 1.7; text-align: center; font-size: 17px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; text-align: center; width: 50%; padding-left: 14px; padding: 0 50px; }
