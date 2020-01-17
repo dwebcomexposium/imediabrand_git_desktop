@@ -827,6 +827,9 @@ word-wrap: normal;
 .block.edito h1 { font-family: 'Proxima Nova', sans-serif; font-weight: 700;  max-width: 60%; font-size: 35px; color: #262626; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.05em; text-transform: uppercase; }
 .block.edito h2 { font-family: 'Proxima Nova', sans-serif; font-weight: 400;  max-width: 60%; font-size: 35px; color: #b71234; position: relative; padding: 0; margin: 0 0 2.5vw; border: 0; z-index: 2; line-height: 1.15; z-index: 15; letter-spacing: 0.02em; }
 .block.edito h4 { font-family: 'Proxima Nova', sans-serif; font-size: 1.41vw; font-weight: 700; letter-spacing: 0.02em; color: #262626; position: relative; margin: 0 0 -0.39vw; z-index: 2; }
+
+
+
 .block.edito p { max-width: 60%; margin: 0 0 1.68vw; font-size: 1.25vw; letter-spacing: -0.02em; position: relative; z-index: 2; }
 .block.edito p a:not([class]) { color: inherit; }
 .block.edito .focus2 a:not([class]) { color: #b71234; }
@@ -3016,6 +3019,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .lp-club .article-wrapper blockquote:before { filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter'); -webkit-filter: grayscale(1); filter: grayscale(1); }
 
 
+
 /*lp dossier*/
 .lp-dossier .list-articles { padding: 20x 36px 20px 36px; }
 .lp-dossier .grid-la-list { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -ms-flex-direction: row; flex-direction: row; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
@@ -3072,3 +3076,11 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 .list-articles.connexe img  { border-radius: 100%;  border: 20px solid #f5f5f5; width: 175px; height: 175px; }
 .list-articles.connexe .la-item { border: 0; margin-bottom: 20px; }
 .list-articles.connexe .la-item .la-item-title a i.icon { display: none; }
+
+
+
+/*edito home*/
+.front .block.edito h3, .front .block.edito h4, .front .block.edito h7 { max-width: 60%; }
+.front .block.edito figure.fr img { display: block; width: 350px; height: 350px; border-radius: 100%; border: 35px solid #f5f5f5; }
+.front .block.edito figure.fr figcaption { display: none; }
+
