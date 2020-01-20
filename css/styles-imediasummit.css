@@ -3093,3 +3093,7 @@ body.body-corpo.front #zone2 .block.edito .edito-inner { z-index: 100; }
 
 .front .block.edito figure.fr figcaption { display: none; }
 .lp-dossier .gla-item{opacity:1;}
+.lp-dossier .list-articles h2{padding-top: 3.15em;}
+.lp-dossier .main-title-with-link > .main-title div:after {
+    background: #b71234;
+}
