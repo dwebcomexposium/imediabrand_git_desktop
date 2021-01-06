@@ -254,7 +254,7 @@ word-wrap: normal;
 .main-navigation .mn-menu:after { content: ''; line-height: 0; display: table; clear: both; }
 .main-navigation .mn-menu .mn-link-text:before { display: none; }
 .main-navigation .mn-menu > .mn-item-lvl-1 { float: left; }
-.main-navigation .mn-menu > .mn-item-lvl-1:first-child { display: none; }
+/*.main-navigation .mn-menu > .mn-item-lvl-1:first-child { display: none; }*/
 .main-navigation .mn-menu > .mn-item-lvl-1:nth-last-child(-n+3) .mn-menu-submenu { left: auto; right: 0; }
 .main-navigation .mn-menu > .mn-item-lvl-1 + .mn-item-lvl-1 { margin-left: 23px; }
 .main-navigation .mn-menu > .mn-item-lvl-1 > .mn-link { position: relative; display: block; min-height: 0; padding: 37px 0; color: #000; 
