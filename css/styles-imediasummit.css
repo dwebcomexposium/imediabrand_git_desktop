@@ -3106,3 +3106,7 @@ header .main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {
     font-size: 15px;
     transition: padding .2s ease-in-out 0s;
 }
+
+li.mn-menu-item.mn-item-lvl-1.mn-menu-item-866782 {
+    display: none;
+}
