@@ -3110,3 +3110,7 @@ header .main-navigation .mn-menu li.mn-item-lvl-1:last-child .mn-link-text {
 li.mn-menu-item.mn-item-lvl-1.mn-menu-item-866782 {
     display: none;
 }
+
+#zone2 a {
+    color: #b71234;
+}
