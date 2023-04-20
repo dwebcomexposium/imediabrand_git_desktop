@@ -849,6 +849,8 @@ word-wrap: normal;
 
 
 .block.edito p { max-width: 70%; margin: 0 0 1.68vw; font-size: 1.25vw; position: relative; z-index: 2; }
+.edito.speakers p { max-width: 100%; }
+
 
 .block.edito ul.style2 { max-width: 80%; }
 
