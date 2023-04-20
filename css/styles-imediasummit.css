@@ -2066,7 +2066,7 @@ word-wrap: normal;
 .article-wrapper .article-content blockquote p, .front .block.edito blockquote p { font-family: 'Arial', Helvetica, sans-serif; font-weight: 700; font-size: 30px !important; line-height: 1.33 !important; }
 
 
-.article-wrapper blockquote:before, .front .block.edito blockquote:before { content: ''; position: absolute; bottom: -150px; left: -550px; border-radius: 50%; border: 1px solid #FF80D6; width: 480px; height: 480px; background: #FFA500; }
+.article-wrapper blockquote:before, .front .block.edito blockquote:before { content: ''; position: absolute; bottom: -150px; left: -550px; border-radius: 50%; /*border: 1px solid #FF80D6; */width: 480px; height: 480px; background: #FFA500; }
 
 .article-wrapper blockquote p, .front .block.edito blockquote p { padding: 0; border: 0; }
 .article-wrapper figure { padding: 0; margin: 0; border: 0; }
@@ -2148,7 +2148,7 @@ h1.main-title { font-family: 'Arial', Helvetica, sans-serif; font-size: 37px; li
 .article-wrapper .article-content { font-size: 1.19vw; line-height: 1.78; letter-spacing: -0.02em; color: #111111; }
 .article-wrapper .article-content > *:not(figure):not(blockquote) { position: relative; z-index: 2; }
 
-.article-wrapper .rhomboid-container { position: absolute; width: 30vw; height: 30vw !important; right: -35.6vw; top: 0; border-radius: 50%; z-index: 2; background: linear-gradient(#dd4854 0.2%, #b71d3d 100%); padding: 50px; }
+.article-wrapper .rhomboid-container { position: absolute; width: 30vw; height: 30vw !important; right: -35.6vw; top: 0; border-radius: 50%; z-index: 2; /*background: linear-gradient(#dd4854 0.2%, #b71d3d 100%);*/ padding: 50px; }
 .article-wrapper .rhomboid-container-inner { position: relative; width: 100%; height: 100%; right: 0; border-radius: 50%; overflow: hidden; }
 
 .article-wrapper .rhomboid-container img { position: absolute; /*width: 130%; max-width: 150%; height: auto;*/ top: 50%; left: 50%;
@@ -2307,6 +2307,8 @@ h1.main-title { font-family: 'Arial', Helvetica, sans-serif; font-size: 37px; li
 	.cl-item + .cl-item { margin-top: 40px; }
 
 	.cl-item .cl-item-content { max-width: 100%; width: 100%; float: none; }
+	.cl-item .cl-item-photo:after { left: -150px;   }
+	
 }
 
 
@@ -3244,4 +3246,4 @@ ul.style2 li strong { font-size: 22px; line-height: 1.2; display: block; }
 
 /*div*/
 .main-title-with-link { border: none; }
-.cc-cookies { display: none; }
+.cc-cookies, .actions { display: none; }
