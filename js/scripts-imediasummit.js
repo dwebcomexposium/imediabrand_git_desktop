@@ -491,7 +491,7 @@
 				infinite: true,
 				responsive: true,
 				swipe: true,						
-				auto: 4000,
+				auto: false,
 				swipe: {
 					onTouch: true
 				},
