@@ -75,7 +75,8 @@ word-wrap: normal;
           transition: none; 
 }
 
-.site-banner.header-collapsed .main-navigation .mn-menu > .mn-item-lvl-1 > .mn-link { padding: 28px 0 26px; }
+.site-banner.header-collapsed .main-navigation .mn-menu > .mn-item-lvl-1 > .mn-link { padding: 20px 0 20px; }
+.site-banner.header-collapsed .header-body .lang-switcher {top: 38px;  }
 
 
 .site-banner.header-collapsed .nav { padding: 0; background: #0000FF; }
@@ -90,9 +91,9 @@ word-wrap: normal;
 
 .site-banner h1 { float: left; padding: 0; margin: 2.24vw 0 0; border: 0; }
 
-.site-banner .main-navigation { float: right; padding: 0 8.5vw 0 0;  }
+.site-banner .main-navigation { float: right; padding: 0 8.5vw 0 0; border-radius: 0 0 0 30px;  padding-left: 20px; }
 
-.site-banner .inside { max-width: 100%; padding-top: 0; padding-left: 36px; background: #fff; }
+.site-banner .inside { max-width: 100%; padding-top: 0; padding-left: 36px; /*background: #fff;*/ }
 .site-banner .inside:after { content: ''; display: table; line-height: 0; clear: both; }
 
 @media (max-width: 1600px) {
@@ -3253,3 +3254,7 @@ ul.style2 li strong { font-size: 22px; line-height: 1.2; display: block; }
 /*div*/
 .main-title-with-link { border: none; }
 .cc-cookies, .actions { display: none; }
+
+.is-stuck .mn-item-lvl-1:first-child {
+    display: block;
+}
