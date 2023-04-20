@@ -3258,3 +3258,9 @@ ul.style2 li strong { font-size: 22px; line-height: 1.2; display: block; }
 .is-stuck .mn-item-lvl-1:first-child {
     display: block;
 }
+
+
+.article-wrapper ul {
+
+    list-style: none;
+}
