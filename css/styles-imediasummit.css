@@ -1950,13 +1950,15 @@ word-wrap: normal;
 .section-primary img { display: block; width: 100%; height: auto; height: 100%; opacity: 0; visibility: hidden; display: none; }
 
 .section-primary .ico-stroke { position: absolute; top: -4.69vw; left: -0.86vw; }
-.section-primary .section-inner { position: relative; overflow: hidden; z-index: 2; height: 500px; background-size: cover; background-position: center; border-radius: 50px; }
+.section-primary .section-inner { position: relative; overflow: hidden; z-index: 2; height: 347px; background-size: cover; background-position: center; border-radius: 50px; }
 
-.section-primary .section-inner:after { content: ''; position: absolute; bottom: -30px; left: 0; background: url(gfx/orange-inner.svg) no-repeat 0 0; width: 1107px; height: 304px; z-index: -2;}
+.section-primary .section-inner:after { content: ''; position: absolute; bottom: 0; left: 0; background: url(gfx/green-inner.svg) no-repeat 0 0; width: 857px; height: 417px; z-index: -2;}
+.section-primary .section-inner:before { content: ''; position: absolute; top: 0; right: 0; background: url(gfx/orange-top-inner.svg) no-repeat 0 0; width: 171px; height: 181px; z-index: 5000;}
+
 
 .section-primary h1, .section-primary h2 { position: absolute; bottom: 0; left: 0; width: 100%; border: none; color: #fff; font-family: 'Arial', Helvetica, sans-serif; font-weight: 700; font-size: 72px; line-height: 1; padding: 42px 30px 64px 82px; margin: 0; letter-spacing: 0; }
 .section-primary h1 em, .section-primary h2 em { display: block; font-style: normal; font-weight: 400; font-size: 19px; margin-bottom: 11px; }
-.section-primary h1:before, .section-primary h2:before { content: ''; position: absolute; width: 14px; height: 14px; left: 83px; top: 0; border-radius: 50%; background: #ffffff; }
+/*.section-primary h1:before, .section-primary h2:before { content: ''; position: absolute; width: 14px; height: 14px; left: 83px; top: 0; border-radius: 50%; background: #ffffff; }*/
 
 
 
